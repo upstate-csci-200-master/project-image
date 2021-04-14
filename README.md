@@ -26,7 +26,7 @@ Use the provided code to extract width, height, and maximum value (255) from the
 
 ## Versions
 ### B Version
-**Grayscale**: Convert the image to grayscale. For each pixel **grayscale = (red×.3 + green×.59 + blue×.11)**. You should round the result. Use the grayscale value as the new red, green, and blue values.
+**Grayscale**: Convert the image to grayscale. Here is an [excellent article](https://www.kdnuggets.com/2019/12/convert-rgb-image-grayscale.html) on how to convert RGB (red, green, blue) colors to grayscale. I recommend you use the linear approximation approach for this program. For each pixel **grayscale = (red×.3 + green×.59 + blue×.11)**. You should round the result. Use the grayscale value as the new red, green, and blue values.
 
 ### A Versions
 Do **one** of the following image manipulations:<br/>
